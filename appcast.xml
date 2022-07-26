@@ -4,20 +4,19 @@
     <title>Example app updates</title>
 	<!-- link is the link to the appcast on the server.
 		dunno why it links to itself but it works like this-->
-    <link>http://127.0.0.1:4000/appcast.xml</link>
+    <link>https://bitbucket.shure.com/users/alwickz/repos/upgradeableapp/raw/appcast.xml</link>
     <description>Appcast for Example app updates.</description>
     <language>en</language>
     <item>
       <title>Version 1.1.0</title>
 	  <!-- Link to the release notes page that will be loaded in the auto update dialog -->
-      <sparkle:releaseNotesLink>http://127.0.0.1:4000/index.html</sparkle:releaseNotesLink>
+      <sparkle:releaseNotesLink>https://bitbucket.shure.com/users/alwickz/repos/upgradeableapp/raw/index.html</sparkle:releaseNotesLink>
 	  <!-- I don't think the pubDate does anything? -->
       <pubDate>Thurs, 29 May 2022 00:00:00 +0200</pubDate>
 	  <!-- the url attribute is where the installer update is for this version -->
-      <enclosure url="http://127.0.0.1:4000/UpgradeableAppSetup.exe"
+      <enclosure url="https://bitbucket.shure.com/users/alwickz/repos/upgradeableapp/raw/UpgradeableApp.pkg"
                  sparkle:version="8.0.0"
-                 sparkle:dsaSignature="MEUCIBw9k3QP9rM0El/HFkIr5ewLs3zTYNggrNNvQ7ALdh+aAiEAiPf1Y7w1C+mYoR2tBcfpBS8SZp3GHOWdnJ+alB9tRb4="
-				 type="application/octet-stream"/>
+                 sparkle:edSignature="kACc42pCtK9utUWd13+BiyMKz7pybgp5y9u6e46pU5SsCWk4Ax3/RbHbNJehaocgohp9v+mo9+dDlHRHaycgBg=="/>
     </item>
   </channel>
 </rss>
