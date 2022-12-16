@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+
+.box-container {
+    margin: 32px 12vw;
+    display: flex;
+    gap: 4vw;
+    align-items: center;
+}
+
+.box {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    background-color: #ff8800;
+    border-bottom: 12px #ff7605 solid;
+    border-right: 12px #ff7605 solid;
+    padding: 36px 12px 28px 16px;
+    gap: 16px;
+    border-radius: 2.5vw;
+    box-shadow: 0px 0px 10px black;
+}
+.box > h2 {
+    text-align: center;
+    font-size: 32px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.box > p {
+    margin: 0px;
+    font-size: 18px;
+    text-align: center;
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1.1, 1.1);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+.box:hover {
+    animation-name: bounce;
+    animation-duration: .8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
