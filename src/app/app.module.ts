@@ -11,6 +11,8 @@ import { CtaButtonsComponent } from './home/cta-buttons/cta-buttons.component';
 import { SocialLinksComponent } from './social-links/social-links.component';
 import { AboutComponent } from './about/about.component';
 import { AppRoutingModule } from './app-routing.module';
+import {APP_BASE_HREF} from '@angular/common';
+
 
 @NgModule({
   declarations: [
@@ -28,7 +30,7 @@ import { AppRoutingModule } from './app-routing.module';
     FontAwesomeModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [{provide: APP_BASE_HREF, useValue: '/'}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
