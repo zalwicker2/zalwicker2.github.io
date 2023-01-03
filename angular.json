@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "zalwickerdev": {
+    "zalwicker.dev": {
       "projectType": "application",
       "schematics": {},
       "root": "",

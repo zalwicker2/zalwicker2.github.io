@@ -1,0 +1,19 @@
+.icon-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    font-size: 18px;
+    gap: 16px;
+    margin: 8px;
+}
+.icon-text > a {
+    font-size: 18px;
+    margin-bottom: 8px;
+    display: block;
+    color: white;
+}
+
+.icon-text > fa-icon {
+    aspect-ratio: 1;
+}

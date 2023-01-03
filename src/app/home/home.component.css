@@ -1,51 +1,21 @@
-.box-container {
-    margin: 32px 12vw;
-    display: flex;
-    gap: 4vw;
-    align-items: center;
-}
-
 .box {
-    flex: 1;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     text-decoration: none;
     color: white;
-    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
     background-color: hsl(27, 100%, 50%);
-    border-bottom: 12px hsl(22, 100%, 51%) solid;
-    border-right: 12px hsl(22, 100%, 51%) solid;
-    padding: 36px 12px 28px 16px;
+    border-bottom: 6px hsl(22, 100%, 51%) solid;
+    border-right: 6px hsl(22, 100%, 51%) solid;
+    padding: 16px 12px 12px 16px;
     gap: 16px;
-    border-radius: 2.5vw;
-    box-shadow: 0px 0px 10px black;
+    border-radius: 1.25vw;
+    box-shadow: 0px 0px 5px black;
 }
 
-.box > p {
-    margin: 0px;
-    color: white;
-    font-size: 20px;
-    font-weight: 400;
-    text-align: center;
-}
-
-@keyframes bounce {
-    0% {
-        transform: scale(1, 1);
-    }
-    50% {
-        transform: scale(1.1, 1.1);
-    }
-    100% {
-        transform: scale(1, 1);
-    }
-}
-
-.box:hover {
-    animation-name: bounce;
-    animation-duration: .8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+p {
+    font-size: 18px;
 }

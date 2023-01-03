@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { faEnvelope, faPhone, faUser } from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'app-footer',
@@ -7,7 +6,5 @@ import { faEnvelope, faPhone, faUser } from '@fortawesome/free-solid-svg-icons'
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent {
-  faUser = faUser;
-  faEnvelope = faEnvelope;
-  faPhone = faPhone;
+  
 }

@@ -1,1 +1,17 @@
-<p>cta-buttons works!</p>
+<div class="box-container">
+    <a href="/about" class="box">
+        <fa-icon [icon]="faUser" size="4x" style="color: white"></fa-icon>
+        <h2>About Me</h2>
+        <p>Learn about me and my goals in software development and game design.</p>
+    </a>
+    <a href="/projects" class="box">
+        <fa-icon [icon]="faLightbulb" size="4x" style="color: white"></fa-icon>
+        <h2>My Projects</h2>
+        <p>Look at projects I've worked on in the past and the skills I picked up from them.</p>
+    </a>
+    <a routerLink="/resume" class="box">
+        <fa-icon [icon]="faClipboard" size="4x" style="color: white"></fa-icon>
+        <h2>My Resume</h2>
+        <p>View my formal resume that can be viewed and printed.</p>
+    </a>
+</div>

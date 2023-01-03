@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { faUser, faLightbulb, faClipboardList } from '@fortawesome/free-solid-svg-icons';
+import { projects } from '../projects.service';
 
 @Component({
   selector: 'app-home',
@@ -7,7 +7,5 @@ import { faUser, faLightbulb, faClipboardList } from '@fortawesome/free-solid-sv
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-  faUser = faUser;
-  faLightbulb = faLightbulb;
-  faClipboard = faClipboardList;
+  projects = projects;
 }
