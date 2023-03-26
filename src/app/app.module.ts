@@ -15,6 +15,7 @@ import { ResumeComponent } from './resume/resume.component';
 import { ContactInfoComponent } from './contact-info/contact-info.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ProjectDisplayComponent } from './project-display/project-display.component';
+import { SpotifyComponent } from './spotify/spotify.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { ProjectDisplayComponent } from './project-display/project-display.compo
     ResumeComponent,
     ContactInfoComponent,
     ProjectsComponent,
-    ProjectDisplayComponent
+    ProjectDisplayComponent,
+    SpotifyComponent
   ],
   imports: [
     BrowserModule,

@@ -10,6 +10,6 @@ export const projects = [
     {name: 'Spotify Bracket', image: 'https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg',
     description: "A fun little project I made to practice working with APIs, the Spotify bracket takes a playlist given by the user and provides a bracket of 1 vs 1 matchups between songs to find the ultimate song on a particular playlist. It's been a lot of fun when played with friends, especially as debates heat up over which song is better.",
     links: [
-      {title: 'View on Github', icon: faGithub, link: 'https://github.com/zalwicker2/spotify-bracket'}
+      {title: 'Try It', icon: faCircleArrowRight, link: 'https://spotify-bracket-frontend.azurewebsites.net/'}
     ]},
   ]
