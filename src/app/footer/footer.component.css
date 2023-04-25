@@ -24,3 +24,13 @@ p {
     margin: 0px;
     padding: 0px;
 }
+
+@media screen and (max-width: 800px) {
+    .dev-name {
+        display: none;
+    }
+
+    .site-name {
+        display: none;
+    }
+}

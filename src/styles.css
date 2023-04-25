@@ -18,6 +18,14 @@ h1 {
     border: 3px solid white;
 }
 
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 40px;
+        margin: 16px 0;
+        padding: 16px 32px;
+    }
+}
+
 h2 {
     text-align: center;
     font-size: 32px;

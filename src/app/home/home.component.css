@@ -19,3 +19,11 @@
 p {
     font-size: 18px;
 }
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 40px;
+        margin: 16px 0;
+        padding: 16px 32px;
+    }
+}

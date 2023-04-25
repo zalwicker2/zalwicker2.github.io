@@ -41,9 +41,10 @@
     .box-container {
         gap: 32px;
         flex-direction: column;
+        margin: 32px 8vw;
     }
 
     .box-container .box {
-        width: 80%;
+        width: 100%;
     }
 }
