@@ -1,0 +1,5 @@
+<h4>{{experience.title}}</h4>
+<div class="bonus" *ngIf="experience.bonus != ''">{{experience.bonus}}</div>
+<h5>{{experience.start}} - {{experience.end}}</h5>
+<p>{{experience.description}}<a *ngIf="experience.end_info != null"
+        [href]="experience.end_info.link">{{experience.end_info.text}}</a></p>

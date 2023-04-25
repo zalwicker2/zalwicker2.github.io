@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 
 .navbar {
-    width: 100vw-16px; 
-    height: 7.5vh; 
-    padding: 0px 8px; 
-    background-color: #F15A29; 
-    display: flex; 
-    flex-direction: row; 
-    align-items: center; 
+    width: 100vw-16px;
+    height: 7.5vh;
+    padding: 0px 8px;
+    background-color: #F15A29;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
     border-bottom: 4px solid #BF2800;
     position: sticky;
     top: 0px;
+    z-index: 10;
 }
 
 img {
@@ -20,22 +21,39 @@ img {
 }
 
 .site-name {
-    text-decoration: none; 
-    color: white; 
-    font-weight: 'regular'; 
+    text-decoration: none;
+    color: white;
+    font-weight: 'regular';
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 24px;
     font-weight: 400;
     padding: 0px 16px;
 }
 
+.links {
+    flex: 1;
+    display: flex;
+    justify-content: center
+}
+
+.links a {
+    text-align: center;
+    padding: 0 16px;
+}
+
+@media screen and (max-width: 800px) {
+    .site-name {
+        display: none;
+    }
+}
+
 .navbar-link {
     display: inline-block;
-    text-decoration: none; 
-    color: white; 
-    text-transform: uppercase; 
-    font-weight: bolder; 
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
     font-size: 24px;
-    padding: 64px;
+    flex: 1;
     text-shadow: 0px 2px 5px rgba(0, 0, 0, .5);
 }

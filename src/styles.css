@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,900;1,300;1,400&family=Raleway:wght@300;400;500;600;700&family=Roboto:wght@300;400&display=swap');
 
 body {
     margin: 0;
@@ -11,10 +11,9 @@ body {
 
 h1 {
     text-align: center;
-    display: block;
+    display: inline-block;
     font-size: 52px;
-    padding: 16px;
-    width: 25%;
+    padding: 16px 96px;
     margin: 16px auto;
     border: 3px solid white;
 }
@@ -66,9 +65,11 @@ p {
     0% {
         transform: scale(1, 1);
     }
+
     50% {
         transform: scale(1.05, 1.05);
     }
+
     100% {
         transform: scale(1, 1);
     }
@@ -90,15 +91,19 @@ fa-icon {
     app-navbar {
         display: none;
     }
+
     h1 {
         display: none;
     }
+
     .name {
         display: block;
     }
+
     footer {
         visibility: hidden;
     }
+
     * {
         color: black;
         background-color: #fff0;

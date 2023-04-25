@@ -4,13 +4,20 @@
 }
 
 .project-bg {
-    display: flex; 
-    gap: 2vw; 
-    margin: 8px 10vw; 
-    padding: 32px; 
-    border-radius: 16px; 
+    display: flex;
+    gap: 2vw;
+    margin: 8px 10vw;
+    padding: 32px;
+    border-radius: 16px;
     background-color: #1a1a1a;
     font-weight: 300;
+}
+
+@media screen and (max-width: 800px) {
+    .project-bg {
+        flex-direction: column;
+        margin: 8px 0;
+    }
 }
 
 .box {

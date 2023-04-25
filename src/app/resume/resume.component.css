@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,900;1,300;1,400&family=Roboto&display=swap');
+
 .name {
     border: none;
     margin: 0px auto;
     padding: 0px;
     font-size: 40px;
 }
+
 .resume-item {
     display: block;
     margin: 16px;
@@ -11,7 +14,7 @@
     width: 100%;
 }
 
-.resume-item > h2 {
+.resume-item>h2 {
     border-style: solid;
     text-align: left;
     border-width: 0px;
@@ -21,16 +24,16 @@
     margin-bottom: 0px;
 }
 
-div > ul {
-    display: inline-block;
-    border-style: solid;
-    border-width: 1px;
-    border-top-width: 0px;
-    border-bottom-left-radius: 16px;
-    border-bottom-right-radius: 16px;
-    border-color: white;
-    width: 100%;
-    padding: 0px 16px 16px 16px;
+.contact {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact li {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 4px;
 }
 
 .contact-info {
@@ -39,13 +42,14 @@ div > ul {
     font-size: 14px;
 }
 
-.contact-info > p {
+.contact-info>p {
     margin: 0px;
     margin-bottom: 8px;
     font-size: 18px;
     color: white;
 }
-.contact-info > h4 {
+
+.contact-info>h4 {
     font-size: 24px;
     margin-top: 0px;
     margin-bottom: 4px;
@@ -60,17 +64,55 @@ div > ul {
     gap: 16px;
     margin: 8px;
 }
-.icon-text > a {
+
+.icon-text>a {
     font-size: 18px;
     margin-bottom: 8px;
     display: block;
     color: white;
 }
 
-.icon-text > fa-icon {
+.icon-text>fa-icon {
     aspect-ratio: 1;
 }
 
-div > ul > li {
-    margin-bottom: 16px;
+.resume {
+    display: flex;
+    margin: 8px 20vw;
+    gap: 2vw
+}
+
+@media screen and (max-width: 800px) {
+    .resume {
+        margin: 8px 2vw;
+        flex-direction: column-reverse;
+    }
+}
+
+.resume h3 {
+    padding-top: 5pt;
+    padding-bottom: 10pt;
+    margin: 0;
+    color: orange;
+    font-weight: 900;
+    font-size: 18pt;
+    font-family: "Lato";
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.resume p {
+    margin: 0;
+}
+
+a {
+    color: #e7ca28;
+}
+
+ul {
+    margin: 0
+}
+
+ul li:first-child {
+    padding-top: 0;
 }

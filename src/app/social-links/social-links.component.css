@@ -2,6 +2,20 @@
     color: white;
 }
 
+.icons {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: right;
+    gap: .5vw
+}
+
+@media screen and (max-width: 800px) {
+    .icons {
+        display: none;
+    }
+}
+
 fa-icon {
     color: '#fff';
     padding: 0px 12px;
