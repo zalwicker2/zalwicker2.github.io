@@ -1,0 +1,52 @@
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <h1>My Resume</h1>
+</div>
+<div class="resume">
+    <div style="flex: 1">
+        <h3>Contact</h3>
+        <ul class="contact">
+            <li><strong>Phone:</strong> (224) 256-1516</li>
+            <li><strong>Email:</strong>&nbsp;<a href="mailto:zalwicker@gmail.com">zalwicker@gmail.com</a></li>
+            <li><strong>Website:</strong>&nbsp;<a href="https://www.zalwicker.dev/">zalwicker.dev</a></li>
+            <li><strong>LinkedIn:</strong>&nbsp;<a href="https://www.linkedin.com/in/zalwicker/">zalwicker</a></li>
+            <li><strong>GitHub:</strong>&nbsp;<a href="https://github.com/zalwicker2/">zalwicker</a></li>
+        </ul>
+        <h3>Profile</h3>
+        <p>I am task oriented and adaptable. If I am given a task, I will complete it quickly and efficiently, without
+            cutting corners. I am always willing to learn new skills and participate in new opportunities to improve
+            myself and my career. I am passionate and energetic about that work that I do, because I am proud of what I
+            have done and what I will do.</p>
+        <h3>Languages</h3>
+        <ul>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>Lua</li>
+            <li>C#</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Python</li>
+            <li>C++</li>
+            <li>CMake</li>
+        </ul>
+        <h3>Frameworks</h3>
+        <ul>
+            <li>React Native</li>
+            <li>Angular</li>
+            <li>Vue.js</li>
+        </ul>
+        <h3>Miscellanous</h3>
+        <ul>
+            <li>MongoDB</li>
+            <li>AWS Lightsail and EC2</li>
+            <li>Microsoft Azure</li>
+        </ul>
+    </div>
+    <div style="flex: 2">
+        <h3>Education</h3>
+        <app-experience *ngFor="let experience of education" [experience]="experience"></app-experience>
+        <h3>Work Experience</h3>
+        <app-experience *ngFor="let experience of work_experience" [experience]="experience"></app-experience>
+        <h3>Freelance Projects & Jobs</h3>
+        <app-experience *ngFor="let experience of work_freelance" [experience]="experience"></app-experience>
+    </div>
+</div>

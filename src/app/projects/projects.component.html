@@ -1,0 +1,5 @@
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <h1>My Projects</h1>
+</div>
+<app-project-display *ngFor="let project of projects; index as i;" [project]="project"
+    [index]="i"></app-project-display>

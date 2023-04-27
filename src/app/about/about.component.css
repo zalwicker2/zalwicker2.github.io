@@ -1,0 +1,35 @@
+.about {
+    padding: 16px 24vw;
+}
+
+@media screen and (max-width: 800px) {
+    .about {
+        padding: 16px 6vw;
+    }
+}
+
+.blurb {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0px;
+    margin-top: 4px;
+}
+
+h2 {
+    margin-bottom: 8px;
+}
+
+h3 {
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+a {
+    color: white;
+    font-weight: 500;
+}
+
+p {
+    margin-top: 4px;
+}

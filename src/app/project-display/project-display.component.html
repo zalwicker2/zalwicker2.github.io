@@ -1,0 +1,13 @@
+<div class="project">
+    <div class="project-bg">
+        <div style="flex: 1; display: flex; align-items: center; justify-content: right">
+            <img style="aspect-ratio: 16/9; width: 100%" [src]="project.image">
+        </div>
+        <div style="flex: 1">
+            <h3 style="text-align: left">{{project.name}}</h3>
+            <p>{{project.description}}</p>
+            <a *ngFor="let link of project.links" [href]="link.link" class="box">{{link.title}}<fa-icon
+                    [icon]="link.icon" size="xl"></fa-icon></a>
+        </div>
+    </div>
+</div>
