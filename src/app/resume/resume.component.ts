@@ -22,6 +22,12 @@ export class ResumeComponent {
   ]
   work_experience: Experience[] = [
     {
+      title: 'Full Stack Developer @ Resolute Design and Development',
+      start: 'January 2023',
+      end: 'Present',
+      description: 'Worked with NodeJS, JavaScript, and the Puppeteer library to scrape product info from 40 websites and store them in MongoDB. Also worked on developing a Chrome extension with Vue.js using the data from MongoDB.',
+    },
+    {
       title: 'Senior Web Development Intern @ UIS Web Services',
       start: 'September 2022',
       end: 'December 2022',
@@ -53,12 +59,6 @@ export class ResumeComponent {
     },
   ]
   work_freelance: Experience[] = [
-    {
-      title: 'Happy Deals',
-      start: 'January 2023',
-      end: 'Present',
-      description: 'Worked with NodeJS, JavaScript, and the Puppeteer library to scrape product info from 40 websites and store them in MongoDB. Also worked on developing a Chrome extension with Vue.js using the data from MongoDB.',
-    },
     {
       title: 'crying simulator',
       start: 'July 2021',
