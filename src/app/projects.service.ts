@@ -7,11 +7,11 @@ export const projects = [
     imageType: "contain",
     description: "A quick little project I made because I hate being recommended short-form videos on YouTube. The extension removes all shorts content from YouTube on the page. I went back and modified it a few months after creating it to add in a settings option, where users can also disable upcoming videos, mixes, and other things I don't like on the site.",
     links: [
-      { title: 'View on Chrome Web Store', icon: faCircleArrowRight, link: 'https://chrome.google.com/webstore/detail/youtube-shorts-remover/aefjgmckfgndnaopgholfhdabghaoajg?hl=en-US' }
+      { title: 'View on GitHub', icon: faGithub, link: 'https://github.com/zalwicker2/noshorts-ext' }
     ]
   },
   {
-    name: 'crying simulator', image: 'https://tr.rbxcdn.com/8b838daf50da8c7aa4e75776fdeef515/768/432/Image/Png',
+    name: 'crying simulator', image: 'https://tr.rbxcdn.com/051b6ba399076e608b12e0ea9fdeaf67/768/432/Image/Png',
     imageType: "cover",
     description: "My main project throughout late 2021 and all of 2022, crying simulator was originally a game I created just for fun. Someone gave me the idea of a game where you cry, and I made just that. The game recieved exponentially more attention and positive feedback than I ever could imagine, so I have been updating and monetizing it since the playerbase has expanded. In 2022, the game amassed over 1 million plays.",
     links: [
@@ -26,4 +26,12 @@ export const projects = [
       { title: 'Try It', icon: faCircleArrowRight, link: 'https://spotify-bracket-frontend.azurewebsites.net/' }
     ]
   },
+  {
+    name: 'UIS App', image: 'https://www.uis.edu/sites/default/files/styles/original/public/inline-images/UIS-mobile-app.jpg.webp?itok=qny6Rn5g',
+    imageType: "contain",
+    description: "In my last semester at UIS, I worked on the team to develop the UIS Mobile App. I was part of the initial planning and research phase, along with having built demos from the ground-up using React Native. These demos included the use of several APIs, including Canvas LMS and Twitter, alongside various styling and format decisions.",
+    links: [
+      { title: 'View the UIS Mobile App Page', icon: faCircleArrowRight, link: 'https://www.uis.edu/uis-mobile-app' }
+    ]
+  }
 ]
