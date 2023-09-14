@@ -13,6 +13,10 @@
     font-weight: 300;
 }
 
+.reverse {
+    flex-direction: row-reverse;
+}
+
 @media screen and (max-width: 800px) {
     .project {
         margin: 8px;
